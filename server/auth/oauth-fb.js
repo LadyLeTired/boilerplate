@@ -15,8 +15,8 @@
 // passport.use(
 //   new FacebookStrategy({
 //     //--------------REQUIRES EDITS--------------//
-//     clientID: '808665369477649',
-//     clientSecret: '3fe7c50a96a9de478912f752262632c0',
+//     clientID: 'ID',
+//     clientSecret: 'SECRET',
 //     callbackURL: 'http://localhost:3000/auth/facebook/callback',
 //     profileFields: ['id', 'emails', 'name', 'picture.type(large)']
 //     //------------------------------------------//
