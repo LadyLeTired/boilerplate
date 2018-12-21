@@ -1,9 +1,11 @@
 {
+  // "presets": [
+  //   "./node_modules/babel-preset-react",
+  //   "./node_modules/babel-preset-env"
+  // ],
   "presets": [
-    "./node_modules/babel-preset-react",
-    "./node_modules/babel-preset-env"
+    "./node_modules/@babel/preset-env",
+    "./node_modules/@babel/preset-react"
   ],
-  "plugins": [
-    "@babel/plugin-proposal-object-rest-spread"
-  ]
+  "plugins": ["./node_modules/@babel/plugin-proposal-object-rest-spread"]
 }

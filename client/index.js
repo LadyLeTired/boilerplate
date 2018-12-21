@@ -1,19 +1,22 @@
-import '../public/style.css'
+import "../public/style.css";
 
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom'
-import store from '../client/store'
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  withRouter
+} from "react-router-dom";
+import store from "../client/store";
 
 class Main extends Component {
   constructor() {
-    super()
+    super();
   }
   render() {
-    return (
-      <h1>Hello World!</h1>
-    )
+    return <h1>Hiya World!</h1>;
   }
 }
 
@@ -23,5 +26,5 @@ ReactDOM.render(
       <Main />
     </Router>
   </Provider>,
-  document.getElementById('app')
-)
+  document.getElementById("app")
+);
